@@ -1,6 +1,6 @@
-from keras.layers import Input, Dense
-from keras.models import Sequential, Model
-from keras.optimizers import SGD
+from tensorflow.keras.layers import Input, Dense
+from tensorflow.keras.models import Sequential, Model
+from tensorflow.keras.optimizers import SGD
 import numpy as np
 import pandas as pd
 from collections import defaultdict
